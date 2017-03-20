@@ -83,9 +83,9 @@ type
     function Count: Integer;
     function DuckObjQualifiedName: String;
     function GetKeyTypeInfo: PTypeInfo;
-    function GetKeyTypeName: String;
     function GetKeyQualifiedTypeName: String;
     function GetValueTypeInfo: PTypeInfo;
+    function GetKeyTypeName: String;
     function GetValueTypeName: String;
     function GetValueQualifiedTypeName: String;
   end;
@@ -160,7 +160,7 @@ end;
 
 function TdjDuckDictionary.GetKeyTypeName: String;
 begin
-  Result := Self.GetKeyTypeInfo.Name;
+  Result := '';
 end;
 
 function TdjDuckDictionary.GetValueQualifiedTypeName: String;

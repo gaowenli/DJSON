@@ -105,11 +105,7 @@ type
   // djSerializerJDO
   djSerializerJDOAttribute = class(djSerializerAttribute<TdjJDOCustomSerializerRef>)
   end;
-  // djSerializerXML
-  djSerializerXMLAttribute = class(djSerializerAttribute<TdjXMLCustomSerializerRef>)
-  end;
   // djSerializerStream
-  // djSerializerXML
   djSerializerStreamAttribute = class(djSerializerAttribute<TdjStreamCustomSerializerRef>)
   end;
 
